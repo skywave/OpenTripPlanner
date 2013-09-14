@@ -357,8 +357,8 @@ otp.widgets.ItinerariesWidget =
                     headerHtml += '<span id="'+spanId+'"></span>';
                 }
             }
-            else if(leg.agencyId !== null) {
-                headerHtml += ": "+leg.agencyId+", ";
+            else if(leg.agencyName !== null) {
+                headerHtml += ": "+leg.agencyName+", ";
                 if(leg.route !== leg.routeLongName) {
                     headerHtml += "("+leg.route+") ";
                 }
